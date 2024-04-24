@@ -2,7 +2,6 @@
 
 ![Logo](./public/favicon.png)
 
-
 ## Introduction
 
 The Mobiview-code-whisper-frontend is a React-based application designed to provide a user-friendly interface for generating mobile application code. The frontend allows users to enter prompts and choose between generating code for Flutter or SwiftUI. The generated code is then displayed within the UI, and users have the option to further customize the output using tools like pen, add, and others to refine the generated code.
@@ -41,7 +40,7 @@ To run the application on your local development server, execute:
 npm start
 ```
 
-This command will start the React application and open it in your default web browser. By default, the application will be available at http://localhost:3000.
+This command will start the React application and open it in your default web browser. By default, the application will be available at [localhost:3000](http://localhost:3000).
 
 ## Features
 
