@@ -1,5 +1,8 @@
 # Mobiview-code-whisper-frontend
 
+![Logo](./public/favicon.png)
+
+
 ## Introduction
 
 The Mobiview-code-whisper-frontend is a React-based application designed to provide a user-friendly interface for generating mobile application code. The frontend allows users to enter prompts and choose between generating code for Flutter or SwiftUI. The generated code is then displayed within the UI, and users have the option to further customize the output using tools like pen, add, and others to refine the generated code.
