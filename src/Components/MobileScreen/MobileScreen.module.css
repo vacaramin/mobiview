@@ -1,0 +1,48 @@
+.container {
+  position: absolute;
+  width: 400px;
+  height: 729px;
+  left: 239px;
+  top: 149px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.Screen_out {
+  /* Rectangle 22 */
+  position: relative;
+  width: 361px;
+  height: 670px;
+  left: 22px;
+  top: 30px;
+  align-items: center;
+  background: #f3f4f6;
+  border-radius: 40px;
+}
+.Screen_Preview {
+  /* Preview */
+
+  position: relative;
+  align-items: first baseline;
+  color: #000000;
+  opacity: 0.9;
+}
+.Screen_text {
+  /* Your generated UI will be displayed here */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  width: 100%;
+  line-height: 17px;
+  color: #000000;
+  opacity: 0.7;
+  padding: 0px;
+}

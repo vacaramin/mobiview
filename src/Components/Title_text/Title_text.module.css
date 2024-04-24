@@ -1,0 +1,36 @@
+/* Generate Mobile UI */
+.Title {
+  position: absolute;
+  width: 451px;
+  height: 47px;
+  left: 897px;
+  top: 267px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+
+  opacity: 0.9;
+}
+/* Generate beautiful mobile UI components with a simple prompt. */
+.Title_text {
+  position: absolute;
+  width: 447px;
+  height: 18px;
+  left: 897px;
+  top: 312px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000000;
+
+  opacity: 0.4;
+}

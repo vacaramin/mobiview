@@ -11,18 +11,18 @@ const Darkmode = () => {
 
   const darkmodeToggle = () => {
     
-    darkmode ? document.documentElement.style.setProperty('--background-color', '#282c34') : document.documentElement.style.setProperty('--background-color', 'white');
-    darkmode ? document.documentElement.style.setProperty('--text-color', 'white') : document.documentElement.style.setProperty('--text-color', '#282c34');
+    darkmode ? document.documentElement.style.setProperty('--background-color', '#282c34') : document.documentElement.style.setProperty('--background-color', '#F3F4F6');
+    darkmode ? document.documentElement.style.setProperty('--text-color', '#F3F4F6') : document.documentElement.style.setProperty('--text-color', '#282c34');
 
     dispatch(toggle())
   }
 
   return (
-    <div>
+    <div className={styles.container}>
       <input type="checkbox" className={styles.checkbox} id="checkbox" checked={darkmode} onChange={darkmodeToggle} />
       <label htmlFor="checkbox" className={styles.checkboxLabel}>
         <img src={moon} style={{ height: "22px" }} alt="moon"></img>
-        <img src={sun} style={{ height: "22px" }} alt="moon"></img>
+        <img src={sun} style={{ height: "20px" }} alt="moon"></img>
         <span className={styles.ball} />
       </label>
     </div>

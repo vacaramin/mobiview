@@ -3,6 +3,8 @@ import logoDark from "Assets/Images/brain-logo-dark.png";
 import "./Index.css";
 import Header from "Layout/Header/Header";
 import { useSelector } from "react-redux";
+import MobileScreen from "Components/MobileScreen/MobileScreen";
+import PromptBox from "Components/PromptBox/PromptBox";
 
 function App() {
   const darkmode = useSelector((state) => state.darkmode.value);
@@ -16,6 +18,8 @@ function App() {
           alt="logo"
         />
         <p className="text">Mobiview Code Whisper</p>
+        <MobileScreen></MobileScreen>
+        <PromptBox></PromptBox>
       </header>
     </div>
   );

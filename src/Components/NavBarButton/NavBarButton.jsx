@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {Children} from 'react'
+import styles from './NavBarButton.module.css'
 
-const NavBarButton = () => {
+
+const NavBarButton = (props) => {
   return (
-    <div>
-      
+    <div className={styles.container}>
+      {Children.toArray(props.children)}
     </div>
   )
 }

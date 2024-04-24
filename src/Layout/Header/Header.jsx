@@ -4,6 +4,8 @@ import styles from "./Header.module.css";
 import logoLight from "Assets/Images/logo-white.png";
 import logoDark from "Assets/Images/logo-dark.png";
 import { useSelector } from "react-redux";
+import NavBarButton from "Components/NavBarButton/NavBarButton";
+import ProfileIcon from "Components/ProfileIcon/ProfileIcon";
 
 const Header = () => {
   const darkmode = useSelector((state) => state.darkmode.value);
@@ -27,8 +29,9 @@ const Header = () => {
         </nav>
         <div className={styles.buttonContainer}>
           <Darkmode />
-          <button className={styles.button}>Button</button>
-          <button className={styles.button}>button</button>
+          <NavBarButton> Sign Up</NavBarButton>
+          <NavBarButton> Login</NavBarButton>
+          <ProfileIcon></ProfileIcon>
         </div>
       </header>
     </div>

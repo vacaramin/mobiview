@@ -1,0 +1,63 @@
+/* Rectangle 8 */
+.box {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  left: 60%;
+  top: 351px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+/* Rectangle 16 */
+.input_box {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 457px;
+  height: 148px;
+  left: 3%;
+  top: 10%;
+
+  background: #f9f9f9;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Enter your prompt */
+.box_text {
+  position: relative;
+  width: 103px;
+  height: 15px;
+  left: 5%;
+  top: 5%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.8;
+}
+
+/* Describe the UI you want to generate... */
+.input_box_placeholder {
+  position: relative;
+  width: 220px;
+  height: 15px;
+    left: 0px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.6;
+}
